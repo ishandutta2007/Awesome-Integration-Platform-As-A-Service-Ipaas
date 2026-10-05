@@ -1,213 +1,108 @@
 # Awesome-Integration-Platform-As-A-Service-Ipaas
 
-## Top Integrated Development Environment (IDE) Platforms Ecosystem
-
-**Curated List of SaaS/Commercial Products & Open-Source GitHub Projects**
-
-*Focused on Full-Featured Code Editors, Language-Specific Tooling, Debugging, Refactoring, Build Integration & Developer Productivity*
-
+## Top Integration Platform as a Service (iPaaS) Ecosystem
+**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Application Integration, Workflow Automation, API Orchestration, Data Sync & Enterprise Connectivity*
 **Last updated: October 2026**
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Integration Platform as a Service (iPaaS)**. These systems connect applications, automate workflows, orchestrate APIs, and move data across SaaS, on-premises, and hybrid environments with visual builders or code-friendly approaches.
 
+**Examples** include Azure Logic Apps, Zapier, Workato, Make, MuleSoft Anypoint Platform, Boomi, Celigo, Jitterbit, SnapLogic, and Tray.io (the category leaders).
 
-This repository tracks notable **commercial / hosted platforms** and **open-source projects** for **Integrated Development Environments (IDEs)**. These tools provide comprehensive environments for writing, debugging, testing, and managing software projects—often with deep language support, refactoring, version control integration, and extensibility.
-
-
-
-**Examples** include Microsoft Visual Studio, IntelliJ IDEA, Eclipse, Xcode, CLion, PyCharm, WebStorm, Android Studio, NetBeans, and Rider (the category leaders).
-
-
-
-**Open-source emphasis**: Many leading IDEs have strong open-source roots or free community editions. Fully open options include **Eclipse**, **Apache NetBeans**, **VSCodium**, **IntelliJ IDEA Community**, **Qt Creator**, and a rich ecosystem of specialized editors. This section is heavily expanded.
-
-
+**Open-source emphasis**: Enterprise iPaaS is dominated by commercial platforms. Strong open-source and source-available alternatives exist—especially **n8n**, **Apache Camel**, **Node-RED**, **Activepieces**, **Kestra**, and related projects—providing self-hosted workflow automation and integration. This section is heavily expanded.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
-
 - [SaaS/Hosted Platforms](#saas-products)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
-
-
 ## SaaS/Hosted Platforms
+- **[Azure Logic Apps](https://azure.microsoft.com/products/logic-apps/)**  
+  Microsoft’s cloud integration and workflow service for automating processes across Azure, Microsoft 365, and hundreds of connectors.
 
-- **[Microsoft Visual Studio](https://visualstudio.microsoft.com/)**  
+- **[Zapier](https://zapier.com/)**  
+  Leading no-code automation platform with a vast app catalog, popular for business-user workflows and simple multi-step integrations.
 
-  Full-featured IDE primarily for .NET, C++, and related Microsoft technologies, with deep Windows and Azure integration (Community, Professional, and Enterprise editions).
+- **[Workato](https://www.workato.com/)**  
+  Enterprise automation and iPaaS platform combining low-code recipes with AI-assisted orchestration for IT and business teams.
 
+- **[Make (formerly Integromat)](https://www.make.com/)**  
+  Visual automation platform with advanced scenario building, data transformation, and a strong balance of power and usability.
 
+- **[MuleSoft Anypoint Platform](https://www.mulesoft.com/platform/saas/anypoint-platform)**  
+  Enterprise integration platform focused on API-led connectivity, governance, and complex hybrid integrations (Salesforce company).
 
-- **[IntelliJ IDEA](https://www.jetbrains.com/idea/)**  
+- **[Boomi](https://boomi.com/)**  
+  Cloud-native iPaaS with strong support for hybrid environments, API management, master data, and enterprise connectivity.
 
-  JetBrains’ flagship Java and polyglot IDE known for intelligent code completion, refactoring, and deep framework support (Community and Ultimate editions).
+- **[Celigo](https://www.celigo.com/)**  
+  Integration platform specialized in SaaS-to-SaaS and operational integrations with pre-built connectors and templates.
 
+- **[Jitterbit](https://www.jitterbit.com/)**  
+  iPaaS and API management platform for connecting applications, data, and processes across cloud and on-premises systems.
 
+- **[SnapLogic](https://www.snaplogic.com/)**  
+  Intelligent integration platform with AI-assisted pipeline design and support for data, application, and API integration.
 
-- **[Eclipse](https://www.eclipse.org/ide/)**  
-
-  Long-standing, extensible open-source IDE (also available with commercial support) widely used for Java, C/C++, and enterprise development.
-
-
-
-- **[Xcode](https://developer.apple.com/xcode/)**  
-
-  Apple’s official IDE for developing applications for macOS, iOS, iPadOS, watchOS, and tvOS.
-
-
-
-- **[CLion](https://www.jetbrains.com/clion/)**  
-
-  JetBrains IDE specialized for C and C++ development with smart code analysis and cross-platform support.
-
-
-
-- **[PyCharm](https://www.jetbrains.com/pycharm/)**  
-
-  JetBrains IDE tailored for Python development, data science, and web frameworks (Community and Professional editions).
-
-
-
-- **[WebStorm](https://www.jetbrains.com/webstorm/)**  
-
-  JetBrains IDE focused on JavaScript, TypeScript, and modern web development.
-
-
-
-- **[Android Studio](https://developer.android.com/studio)**  
-
-  Official IDE for Android development, based on the IntelliJ platform and distributed by Google.
-
-
-
-- **[NetBeans](https://netbeans.apache.org/)**  
-
-  Apache NetBeans—mature open-source IDE supporting Java, PHP, JavaScript, and other languages (also listed here for its historical commercial roots).
-
-
-
-- **[Rider](https://www.jetbrains.com/rider/)**  
-
-  JetBrains cross-platform .NET IDE built on the IntelliJ platform and ReSharper technology.
-
-
+- **[Tray.io](https://tray.io/)**  
+  Low-code automation and integration platform aimed at connecting SaaS applications and building complex business workflows.
 
 ## Open-Source GitHub Projects
+- **[n8n](https://github.com/n8n-io/n8n)**  
+  Popular source-available workflow automation platform with a visual node-based editor, extensive connectors, and self-hosting support (Sustainable Use License for community edition).
 
-- **[Eclipse IDE](https://github.com/eclipse-platform)**  
+- **[Apache Camel](https://github.com/apache/camel)**  
+  Mature open-source integration framework implementing Enterprise Integration Patterns—ideal for Java-based routing, mediation, and complex integrations.
 
-  Fully open-source, extensible IDE platform with packages for Java, C/C++, PHP, and many other languages under the Eclipse Public License.
+- **[Node-RED](https://github.com/node-red/node-red)**  
+  Flow-based, open-source programming tool for wiring together hardware devices, APIs, and online services with a browser-based editor.
 
+- **[Activepieces](https://github.com/activepieces/activepieces)**  
+  Open-source (MIT) visual automation platform designed as a self-hostable alternative for app-to-app workflows and integrations.
 
+- **[Kestra](https://github.com/kestra-io/kestra)**  
+  Open-source declarative orchestration and workflow platform for data and application pipelines with strong scheduling and observability.
 
-- **[Apache NetBeans](https://github.com/apache/netbeans)**  
+- **[Automatisch](https://github.com/automatisch/automatisch)**  
+  Open-source (AGPL) Zapier-like automation tool focused on self-hosted business process automation.
 
-  Open-source IDE supporting Java, PHP, JavaScript, C/C++, and more, with a modular architecture and strong out-of-the-box features.
+- **[Windmill](https://github.com/windmill-labs/windmill)**  
+  Open-source developer platform that turns scripts into workflows and internal tools with strong automation capabilities.
 
+- **[Huginn](https://github.com/huginn/huginn)**  
+  Open-source system for building agents that monitor the web, track events, and perform automated actions.
 
+- **[Documentation and n8n / Apache Camel / Node-RED playbooks](https://docs.n8n.io/)**  
+  Guides for self-hosting, building complex workflows, and integrating with existing systems.
 
-- **[VSCodium](https://github.com/VSCodium/vscodium)**  
-
-  Free/libre binaries of Microsoft’s VS Code editor without telemetry or proprietary licensing—built from the open-source Code - OSS repository.
-
-
-
-- **[IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community)**  
-
-  Open-source core of IntelliJ IDEA providing a powerful free IDE for Java, Kotlin, Groovy, and related languages.
-
-
-
-- **[Qt Creator](https://github.com/qt-creator/qt-creator)**  
-
-  Cross-platform open-source IDE focused on C++, Qt, and embedded development with excellent debugging and design tools.
-
-
-
-- **[Code::Blocks](https://github.com/codeblocks)**  
-
-  Lightweight, open-source, cross-platform IDE primarily for C, C++, and Fortran.
-
-
-
-- **[KDevelop](https://github.com/KDE/kdevelop)**  
-
-  Open-source IDE from the KDE project supporting multiple languages with a focus on C/C++ and a modern interface.
-
-
-
-- **[Geany](https://github.com/geany/geany)**  
-
-  Lightweight open-source IDE based on Scintilla, suitable for many programming languages with a small footprint.
-
-
-
-- **[Theia](https://github.com/eclipse-theia/theia)**  
-
-  Extensible open-source cloud and desktop IDE framework used as the foundation for several modern development environments.
-
-
-
-- **[Documentation and Eclipse / NetBeans / VSCodium playbooks](https://www.eclipse.org/documentation/)**  
-
-  Guides for configuring plugins, language support, and productive open-source IDE workflows.
-
-
+- **[Temporal](https://github.com/temporalio/temporal)**  
+  Open-source durable execution platform often used as the backbone for reliable, long-running integration and workflow orchestration.
 
 ### Additional Strong Open-Source Options
+- Deploying **n8n** or **Activepieces** for visual, self-hosted app automation and integrations.
+- Using **Apache Camel** for developer-centric, pattern-based enterprise integration.
+- Choosing **Node-RED** for event-driven and IoT-oriented flows.
+- Leveraging **Kestra** or **Temporal** for robust orchestration of data and application workflows.
+- Accepting that massive pre-built connector marketplaces, enterprise governance, managed scale, and vendor support still drive many organizations to commercial iPaaS (Zapier, Workato, Make, MuleSoft, Boomi, etc.).
+- Focusing open-source efforts on data ownership, cost control, and customization freedom.
 
-- Using **Eclipse** or **Apache NetBeans** for full-featured, plugin-rich Java and multi-language development.
-
-- Choosing **VSCodium** (or Code - OSS) for a VS Code-compatible experience without Microsoft telemetry.
-
-- Leveraging **IntelliJ IDEA Community** for high-quality Java/Kotlin development at no cost.
-
-- Adopting **Qt Creator** or **Code::Blocks** for C/C++ focused work.
-
-- Accepting that certain advanced commercial features (deep .NET tooling in Visual Studio, Ultimate-only JetBrains capabilities, Xcode’s Apple platform exclusivity, etc.) remain proprietary.
-
-- Focusing open-source efforts on freedom, extensibility, and avoiding vendor lock-in while retaining high productivity.
-
-
-
-**Frameworks for building custom systems**: Start with Eclipse, NetBeans, or VSCodium → add language-specific plugins → integrate with open build tools and debuggers → extend via available extension marketplaces or custom plugins. Suitable for individual developers and teams that prioritize open tooling. Many professional environments mix open-source IDEs with commercial ones based on language and platform needs.
-
-
+**Frameworks for building custom systems**: Self-host n8n or Activepieces for visual automation → use Apache Camel for complex Java integrations → orchestrate long-running processes with Temporal or Kestra → monitor with open observability tools. Suitable for teams with engineering capacity. Enterprises often combine open-source engines with commercial iPaaS for managed connectors and support.
 
 ## How to Contribute
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/commercial or open-source.
-
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- IDEs are development tools; choice depends on language, platform, and team preferences. Some “free” editions have usage restrictions. This list is not licensing or productivity advice.
-
-
+- Integration platforms handle business-critical data flows. Self-hosted solutions require proper security, monitoring, and operational care. This list is not architectural or compliance advice.
 
 ---
-
-**Made for software developers, platform teams, and open-source tooling advocates.**
-
-Let's keep development environments powerful, extensible, and as open as practical.
+**Made for integration architects, automation engineers, and open-source workflow advocates.**
+Let's keep systems connected, automated, and as open as practical.
